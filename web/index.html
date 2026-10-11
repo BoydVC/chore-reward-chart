@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chore &amp; Reward Chart · Boyd kids</title>
+<meta name="theme-color" content="#fff7ed">
+<meta name="description" content="Printable weekly chore &amp; reward chart for Charlotte and Victor. Streak stickers, points-to-perks, AirPrint-friendly. Offline TokenMax build.">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+
+<header class="top no-print">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="44" height="44">
+        <defs>
+          <linearGradient id="cg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#fb923c"/>
+            <stop offset="1" stop-color="#e879a9"/>
+          </linearGradient>
+        </defs>
+        <rect x="6" y="8" width="36" height="32" rx="8" fill="#fff7ed" stroke="url(#cg)" stroke-width="2.4"/>
+        <path d="M14 18h20M14 24h16M14 30h12" stroke="#fb923c" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="34" cy="30" r="5" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="34" y="33" text-anchor="middle" font-size="8" fill="#92400e">★</text>
+      </svg>
+    </div>
+    <div>
+      <h1>Chore &amp; Reward Chart</h1>
+      <p class="tag">Char · Vic · fridge-ready weekly sheets · points → perks</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span class="pill soft" id="weekPill">This week</span>
+    <button type="button" class="btn ghost sm" id="btnPrint" title="Print / AirPrint">🖨 Print</button>
+  </div>
+</header>
+
+<nav class="tabs no-print" role="tablist" aria-label="Chart screens">
+  <button class="tab active" data-view="char" role="tab" aria-selected="true">🌟 Char</button>
+  <button class="tab" data-view="vic" role="tab" aria-selected="false">🚀 Vic</button>
+  <button class="tab" data-view="print" role="tab" aria-selected="false">🖨 Print sheet</button>
+  <button class="tab" data-view="about" role="tab" aria-selected="false">About</button>
+</nav>
+
+<main>
+  <!-- CHAR -->
+  <section id="view-char" class="view active" role="tabpanel" data-kid="char"></section>
+
+  <!-- VIC -->
+  <section id="view-vic" class="view" role="tabpanel" data-kid="vic"></section>
+
+  <!-- PRINT -->
+  <section id="view-print" class="view" role="tabpanel">
+    <div class="print-toolbar no-print">
+      <div>
+        <h2 class="view-title">Fridge print sheet</h2>
+        <p class="lede">One page per kid · checkboxes · points · perks menu. AirPrint from Safari / Chrome.</p>
+      </div>
+      <div class="print-actions">
+        <label class="toggle">
+          <input type="checkbox" id="printBoth" checked>
+          <span>Both kids</span>
+        </label>
+        <button type="button" class="btn primary" id="btnDoPrint">Print now</button>
+      </div>
+    </div>
+    <div id="printSheets" class="print-sheets"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="view-about" class="view" role="tabpanel">
+    <div class="about-wrap">
+      <div class="panel">
+        <h2 class="view-title">About this chart</h2>
+        <p class="lede">Warm weekly chore boards for <strong>Charlotte (Char)</strong> and <strong>Victor (Vic)</strong> only — sample chores you can edit, streak stickers, and a points→perks menu. Built for the Boyd fridge / AirPrint.</p>
+        <ul class="about-list">
+          <li>Checks and spent points save in <code>localStorage</code> on this device.</li>
+          <li>Chore labels are editable — click a chore name on the board.</li>
+          <li>Print stylesheet hides chrome and lays out clean weekly grids.</li>
+          <li>All sample chores &amp; perks are EXAMPLE starters — tweak for your house.</li>
+        </ul>
+        <div class="about-actions no-print">
+          <button type="button" class="btn ghost" id="btnExport">Export save JSON</button>
+          <button type="button" class="btn ghost danger" id="btnReset">Reset this week</button>
+          <button type="button" class="btn ghost danger" id="btnResetAll">Reset all data</button>
+        </div>
+        <p class="hint" id="aboutHint"></p>
+      </div>
+      <div class="panel soft-panel">
+        <h3>Hash routes</h3>
+        <p class="mono">#char · #vic · #print · #about</p>
+        <h3>TokenMax</h3>
+        <p class="hint">Offline single-file burn build · port 4311 · kids are only Char &amp; Vic.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot no-print">
+  <span>Boyd household · Millersville</span>
+  <span id="footPts"></span>
+</footer>
+
+<script>
+window.__CHORES__ = /*__CHORES__*/ null /*__/CHORES__*/;
+</script>
+<script>/*__APP__*/</script>
+</body>
+</html>

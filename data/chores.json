@@ -1,0 +1,61 @@
+{
+  "title": "Boyd Chore & Reward Chart",
+  "version": 1,
+  "note": "EXAMPLE sample chores — edit freely. Progress stays in localStorage on this device.",
+  "weekStarts": "sunday",
+  "kids": [
+    {
+      "id": "char",
+      "name": "Charlotte",
+      "short": "Char",
+      "age": 13,
+      "emoji": "🌟",
+      "color": "#e879a9",
+      "accent": "#fbcfe8",
+      "chores": [
+        {"id": "c-room", "label": "Make bed & tidy room", "pts": 2, "freq": "daily"},
+        {"id": "c-hw", "label": "Homework before screens", "pts": 3, "freq": "daily"},
+        {"id": "c-dishes", "label": "Help with dishes / kitchen", "pts": 2, "freq": "daily"},
+        {"id": "c-pet", "label": "Feed pets / water plants", "pts": 1, "freq": "daily"},
+        {"id": "c-trash", "label": "Take out trash / recycling", "pts": 2, "freq": "weekly"},
+        {"id": "c-laundry", "label": "Start or fold a load of laundry", "pts": 3, "freq": "weekly"},
+        {"id": "c-kind", "label": "One kind deed (sibling / family)", "pts": 2, "freq": "daily"}
+      ]
+    },
+    {
+      "id": "vic",
+      "name": "Victor",
+      "short": "Vic",
+      "age": 11,
+      "emoji": "🚀",
+      "color": "#38bdf8",
+      "accent": "#bae6fd",
+      "chores": [
+        {"id": "v-bed", "label": "Make bed", "pts": 1, "freq": "daily"},
+        {"id": "v-room", "label": "Toys / clothes off the floor", "pts": 2, "freq": "daily"},
+        {"id": "v-hw", "label": "Homework before play", "pts": 3, "freq": "daily"},
+        {"id": "v-table", "label": "Set or clear the table", "pts": 2, "freq": "daily"},
+        {"id": "v-backpack", "label": "Pack backpack for tomorrow", "pts": 2, "freq": "daily"},
+        {"id": "v-trash", "label": "Take trash to curb (with adult)", "pts": 2, "freq": "weekly"},
+        {"id": "v-kind", "label": "Help a family member without being asked", "pts": 2, "freq": "daily"}
+      ]
+    }
+  ],
+  "perks": [
+    {"id": "p-screen15", "label": "15 min extra screen time", "cost": 5, "emoji": "📱"},
+    {"id": "p-screen30", "label": "30 min extra screen time", "cost": 8, "emoji": "🎮"},
+    {"id": "p-dinner", "label": "Pick family dinner", "cost": 10, "emoji": "🍕"},
+    {"id": "p-dessert", "label": "Choose dessert night", "cost": 6, "emoji": "🍦"},
+    {"id": "p-stayup", "label": "Stay up 20 min later (weekend)", "cost": 12, "emoji": "🌙"},
+    {"id": "p-movie", "label": "Pick the family movie", "cost": 8, "emoji": "🎬"},
+    {"id": "p-park", "label": "Park / playground outing vote", "cost": 7, "emoji": "🏞️"},
+    {"id": "p-cash5", "label": "$5 allowance boost (parent OK)", "cost": 25, "emoji": "💵"},
+    {"id": "p-friend", "label": "Friend hangout / playdate ask", "cost": 15, "emoji": "🤝"},
+    {"id": "p-skip", "label": "One chore skip pass (this week)", "cost": 10, "emoji": "🎫"}
+  ],
+  "streakStickers": [
+    {"days": 3, "emoji": "🔥", "label": "3-day spark"},
+    {"days": 5, "emoji": "⭐", "label": "5-day star"},
+    {"days": 7, "emoji": "🏆", "label": "Full week champ"}
+  ]
+}
