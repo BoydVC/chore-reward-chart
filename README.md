@@ -1,13 +1,13 @@
 # Chore & Reward Chart
 
-Printable weekly chore & reward boards for **Charlotte (Char, ~13)** and **Victor (Vic, ~11)** — Boyd household fridge / AirPrint sheets. TokenMax burn build.
+Printable weekly chore & reward boards for **Alex (Alex, ~13)** and **Samuel (Sam, ~11)** — Boyd household fridge / AirPrint sheets. TokenMax burn build.
 
 Age-appropriate EXAMPLE chores (editable), streak stickers, points→perks menu (screen time, pick dinner, etc.). Checks persist in `localStorage`.
 
 ## Screens
 
-1. **Char** — Charlotte’s weekly grid, streaks, perks  
-2. **Vic** — Victor’s weekly grid, streaks, perks  
+1. **Alex** — Alex’s weekly grid, streaks, perks  
+2. **Sam** — Samuel’s weekly grid, streaks, perks  
 3. **Print sheet** — AirPrint-friendly one-page-per-kid layout  
 4. **About** — export / reset save, hash routes
 
@@ -28,7 +28,7 @@ Offline single file: `dist/chore-reward-chart.html`
 - `data/chores.json` — EXAMPLE kids, chores, perks (embedded into dist)  
 - `build.py` / `server.py` / `tests/screenshot.sh`
 
-Kids are only Char and Vic (not JT/Laney).
+Kids are only Alex and Sam (not JT/Laney).
 
 
 ---

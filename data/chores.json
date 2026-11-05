@@ -6,8 +6,8 @@
   "kids": [
     {
       "id": "char",
-      "name": "Charlotte",
-      "short": "Char",
+      "name": "Alex",
+      "short": "Alex",
       "age": 13,
       "emoji": "🌟",
       "color": "#e879a9",
@@ -24,8 +24,8 @@
     },
     {
       "id": "vic",
-      "name": "Victor",
-      "short": "Vic",
+      "name": "Samuel",
+      "short": "Sam",
       "age": 11,
       "emoji": "🚀",
       "color": "#38bdf8",
