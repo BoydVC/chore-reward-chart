@@ -280,7 +280,7 @@
 
   function renderPrint() {
     const both = $("#printBoth")?.checked !== false;
-    const kids = both ? DATA.kids : [kidById(location.hash.replace("#", "") === "vic" ? "vic" : "char")].filter(Boolean);
+    const kids = both ? DATA.kids : [kidById(location.hash.replace("#", "") === "jo" ? "jo" : "ri")].filter(Boolean);
     const wrap = $("#printSheets");
     if (!wrap) return;
 
@@ -353,8 +353,8 @@
   }
 
   function renderAll() {
-    renderBoard("char");
-    renderBoard("vic");
+    renderBoard("ri");
+    renderBoard("jo");
     renderPrint();
     updateChrome();
   }
@@ -391,10 +391,10 @@
   }
 
   // Navigation
-  const VIEWS = ["char", "vic", "print", "about"];
+  const VIEWS = ["ri", "jo", "print", "about"];
 
   function showView(name) {
-    if (!VIEWS.includes(name)) name = "char";
+    if (!VIEWS.includes(name)) name = "ri";
     $$(".view").forEach((v) => v.classList.toggle("active", v.id === `view-${name}`));
     $$(".tab").forEach((t) => {
       const on = t.dataset.view === name;
@@ -408,8 +408,8 @@
   }
 
   function routeFromHash() {
-    const h = (location.hash || "#char").replace("#", "").toLowerCase();
-    showView(VIEWS.includes(h) ? h : "char");
+    const h = (location.hash || "#ri").replace("#", "").toLowerCase();
+    showView(VIEWS.includes(h) ? h : "ri");
   }
 
   // Events

@@ -11,7 +11,7 @@ Age-appropriate EXAMPLE chores (editable), streak stickers, points→perks menu 
 3. **Print sheet** — AirPrint-friendly one-page-per-kid layout  
 4. **About** — export / reset save, hash routes
 
-Hash routes: `#char` · `#vic` · `#print` · `#about`
+Hash routes: `#ri` · `#jo` · `#print` · `#about`
 
 ## Run
 
