@@ -321,7 +321,7 @@
           <div class="sheet-perks">${perkChips}</div>
           <div class="sheet-foot">
             <span>Earned: ${earned} · Available: ${avail}</span>
-            <span>Boyd fridge · TokenMax</span>
+            <span>Rivera fridge · TokenMax</span>
           </div>
         </article>`;
       })

@@ -1,13 +1,13 @@
 {
-  "title": "Boyd Chore & Reward Chart",
+  "title": "Rivera Chore & Reward Chart",
   "version": 1,
   "note": "EXAMPLE sample chores — edit freely. Progress stays in localStorage on this device.",
   "weekStarts": "sunday",
   "kids": [
     {
       "id": "char",
-      "name": "Alex",
-      "short": "Alex",
+      "name": "Riley",
+      "short": "Ri",
       "age": 13,
       "emoji": "🌟",
       "color": "#e879a9",
@@ -24,8 +24,8 @@
     },
     {
       "id": "vic",
-      "name": "Samuel",
-      "short": "Sam",
+      "name": "Jordan",
+      "short": "Jo",
       "age": 11,
       "emoji": "🚀",
       "color": "#38bdf8",
