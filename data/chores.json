@@ -5,7 +5,7 @@
   "weekStarts": "sunday",
   "kids": [
     {
-      "id": "char",
+      "id": "ri",
       "name": "Riley",
       "short": "Ri",
       "age": 13,
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "id": "vic",
+      "id": "jo",
       "name": "Jordan",
       "short": "Jo",
       "age": 11,

@@ -18,10 +18,10 @@ shot() {
   rm -rf "$prof"; echo "  $out ($(wc -c < "$out") bytes)"
 }
 U="http://127.0.0.1:$PORT"
-shot "file://$PWD/dist/chore-reward-chart.html#char" screenshots/00-best-home.png 1440,1100
-shot "$U/#char" screenshots/00-desktop-char.png 1440,1000
-shot "$U/#vic" screenshots/01-vic.png 1440,1100
+shot "file://$PWD/dist/chore-reward-chart.html#ri" screenshots/00-best-home.png 1440,1100
+shot "$U/#ri" screenshots/00-desktop-char.png 1440,1000
+shot "$U/#jo" screenshots/01-vic.png 1440,1100
 shot "$U/#print" screenshots/02-print.png 1440,1200
 shot "$U/#about" screenshots/03-about.png 1440,1000
-shot "$U/#char" screenshots/04-phone.png 390,844 --user-agent="Mozilla/5.0 (iPhone)"
+shot "$U/#ri" screenshots/04-phone.png 390,844 --user-agent="Mozilla/5.0 (iPhone)"
 echo "screenshots done"

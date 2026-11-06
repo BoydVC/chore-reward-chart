@@ -6,12 +6,12 @@
   --muted: #a16207;
   --card: #fffbeb;
   --card-border: #fed7aa;
-  --char: #e879a9;
-  --char-bg: #fdf2f8;
-  --char-border: #fbcfe8;
-  --vic: #38bdf8;
-  --vic-bg: #f0f9ff;
-  --vic-border: #bae6fd;
+  --ri: #e879a9;
+  --ri-bg: #fdf2f8;
+  --ri-border: #fbcfe8;
+  --jo: #38bdf8;
+  --jo-bg: #f0f9ff;
+  --jo-border: #bae6fd;
   --gold: #fbbf24;
   --ok: #16a34a;
   --shadow: 0 10px 30px rgba(120, 53, 15, 0.08);
@@ -112,8 +112,8 @@ main { max-width: 1100px; margin: 0 auto; padding: 1rem 1.25rem 3rem; }
   border-radius: var(--radius); padding: 1rem 1.1rem;
   box-shadow: var(--shadow);
 }
-.panel.char { background: var(--char-bg); border-color: var(--char-border); }
-.panel.vic { background: var(--vic-bg); border-color: var(--vic-border); }
+.panel.ri { background: var(--ri-bg); border-color: var(--ri-border); }
+.panel.jo { background: var(--jo-bg); border-color: var(--jo-border); }
 .panel-head {
   display: flex; justify-content: space-between; align-items: flex-start;
   gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem;
@@ -255,8 +255,8 @@ th.today-col { color: #c2410c; }
   background: #fff; border: 2px solid #fed7aa; border-radius: 16px;
   padding: 1rem 1.1rem 1.25rem; page-break-inside: avoid;
 }
-.sheet.char { border-color: var(--char-border); }
-.sheet.vic { border-color: var(--vic-border); }
+.sheet.ri { border-color: var(--ri-border); }
+.sheet.jo { border-color: var(--jo-border); }
 .sheet-head {
   display: flex; justify-content: space-between; align-items: center;
   gap: 0.75rem; margin-bottom: 0.75rem; flex-wrap: wrap;
